@@ -11,7 +11,7 @@ class TransactionPage extends StatefulWidget {
 
 class _TransactionPageState extends State<TransactionPage> {
   bool isExpense = true;
-  List<String> list = ['Makan dan jajan', 'Transportasi', 'nonton film'];
+  List<String> list = ['Makan dan jajan  ', 'Transportasi', 'nonton film'];
   late String dropDownValue = list.first;
   TextEditingController dateController = TextEditingController();
   TextEditingController amountController = TextEditingController();
